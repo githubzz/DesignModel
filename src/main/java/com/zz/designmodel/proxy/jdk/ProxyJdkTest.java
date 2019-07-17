@@ -7,6 +7,8 @@ package com.zz.designmodel.proxy.jdk;
  */
 public class ProxyJdkTest {
 	public static void main(String[] args) {
+		//该设置用于输出jdk动态代理产生的类
+		System.getProperties().put("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
 		//代理对象和实际对象是两个对象，并且分别实例化
 		ServiceImpl serviceImpl = new ServiceImpl();
 		//初始化代理对象的时候需要传入实际对象
