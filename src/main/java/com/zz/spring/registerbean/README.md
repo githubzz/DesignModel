@@ -1,0 +1,3 @@
+- registerbean包下的所有类，均是拷贝的李佳明的代码
+- 详细github地址
+    - https://github.com/pkpk1234/registerbean-ImportBeanDefinitionRegistrar
